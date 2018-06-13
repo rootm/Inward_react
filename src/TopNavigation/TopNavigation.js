@@ -17,6 +17,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import LeftNavigation from '../LeftNavigation/LeftNavigation'
+import AddStaff from '../StaffManagement/AddStaff'
 
 
 const drawerWidth = 180;
@@ -91,8 +92,11 @@ function TopNavigation(props) {
                     <LeftNavigation/>
 
                     <main className={classes.content}>
+
+                        <Typography noWrap>ffff</Typography>
                         <div className={classes.toolbar} />
-                        <Typography noWrap></Typography>
+                        <AddStaff/>
+
                     </main>
 
                 </div>
