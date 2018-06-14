@@ -21,7 +21,7 @@ class EditStaff extends React.Component {
 
             <div className="settings-sub">
                 <form action="">
-                    <div className="setting-head">Edit Employee Information</div>
+                    <div className="setting-head">Change Employee Information</div>
 
                     <div className="settings-item">
                         <div className="setting-item-label">First Name</div>

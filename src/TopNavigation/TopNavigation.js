@@ -20,6 +20,9 @@ import LeftNavigation from '../LeftNavigation/LeftNavigation'
 import AddStaff from '../StaffManagement/AddStaff'
 import EditStaff from '../StaffManagement/EditStaff'
 import AddWard from '../WardManagement/AddWard'
+import EditWard from '../WardManagement/EditWard'
+import Login from '../UserLogin/Login'
+
 
 const drawerWidth = 180;
 
@@ -98,7 +101,7 @@ function TopNavigation(props) {
 
 
 
-                <AddWard/>
+                <EditWard/>
 
             </main>
 

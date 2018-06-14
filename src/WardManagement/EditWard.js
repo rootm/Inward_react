@@ -2,7 +2,7 @@ import React from 'react';
 import './css/Ward.css';
 
 
-class AddWard extends React.Component {
+class EditWard extends React.Component {
     state = {
         name: 'Composed TextField',
     };
@@ -18,7 +18,7 @@ class AddWard extends React.Component {
 
             <div className="settings-sub">
                 <form action="">
-                    <div className="setting-head">Ward Information</div>
+                    <div className="setting-head">Change Ward Information</div>
 
                     <div className="settings-item">
                         <div className="setting-item-label">Ward Name</div>
@@ -100,7 +100,8 @@ class AddWard extends React.Component {
                     </div>
 
 
-                    <button type="button" name="ward_save" className="staff-button">Save Details</button>
+                    <button type="button" name="ward_save" className="staff-button">Update Details</button>
+                    <button type="button" name="ward_delete" className="staff-delete-button">Delete Details</button>
                 </form>
             </div>
 
@@ -109,4 +110,4 @@ class AddWard extends React.Component {
 }
 
 
-export default AddWard;
+export default EditWard;
