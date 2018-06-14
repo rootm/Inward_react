@@ -32,7 +32,7 @@ const styles = theme => ({
     },
     appBar: {
         zIndex: theme.zIndex.drawer + 1,
-        backgroundColor:'#2ecc71',
+        backgroundColor:'#0c0c14',
     },
     drawerPaper: {
         position: 'relative',
@@ -57,10 +57,12 @@ const styles = theme => ({
     },
     profileName:{
         fontFamily: 'Montserrat',
+        color: '#fff'
     },
     sys_heading:{
         fontFamily: 'Montserrat',
         flex:1,
+        color: '#fff',
     }
 
 });
@@ -93,8 +95,8 @@ function TopNavigation(props) {
 
                     <main className={classes.content}>
 
-                        <Typography noWrap>ffff</Typography>
-                        <div className={classes.toolbar} />
+
+
                         <AddStaff/>
 
                     </main>

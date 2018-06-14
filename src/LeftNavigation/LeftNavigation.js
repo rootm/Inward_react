@@ -34,7 +34,7 @@ const styles = theme => ({
     drawerPaper: {
         position: 'relative',
         width: drawerWidth,
-        backgroundColor:'#ffff',
+        backgroundColor:'#fff',
     },
     content: {
         flexGrow: 1,
@@ -43,6 +43,11 @@ const styles = theme => ({
         minWidth: 0, // So the Typography noWrap works
     },
     toolbar: theme.mixins.toolbar,
+    primary:{
+        color:'#fff',
+
+    },
+
 });
 
 function LeftNavigation(props) {
@@ -58,11 +63,11 @@ function LeftNavigation(props) {
                  >
                      <div className={classes.toolbar}/>
                      <List>
-                         <ListItem button>
+                         <ListItem button  >
                              <ListItemIcon>
                                  <InboxIcon/>
                              </ListItemIcon>
-                             <ListItemText primary="Ward Admission"/>
+                             <ListItemText primary="Ward Admission" />
                          </ListItem>
                          <ListItem button>
                              <ListItemIcon>
