@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc821e16-5688-42b3-bc92-b0b99c9551b0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/StaffManagement/EditStaff.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WardManagement/AddWard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StaffManagement/AddStaff.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaffManagement/AddStaff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaffManagement/EditStaff.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaffManagement/EditStaff.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaffManagement/css/AddStaff.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaffManagement/css/Staff.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TopNavigation/TopNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/TopNavigation/TopNavigation.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,8 +25,8 @@
       <file leaf-file-name="TopNavigation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TopNavigation/TopNavigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="66" selection-start-line="66" selection-end-line="66" />
+            <state relative-caret-position="765">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -35,8 +37,8 @@
       <file leaf-file-name="AddStaff.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/StaffManagement/AddStaff.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+            <state relative-caret-position="136">
+              <caret line="33" lean-forward="true" selection-end-line="91" selection-end-column="24" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -44,16 +46,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EditStaff.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/StaffManagement/EditStaff.js">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Staff.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/Staff.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="517">
+              <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddStaff.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/AddStaff.css">
+      <file leaf-file-name="AddWard.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/WardManagement/AddWard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            <state relative-caret-position="415">
+              <caret line="94" column="73" lean-forward="true" selection-start-line="94" selection-start-column="73" selection-end-line="94" selection-end-column="73" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ward.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/WardManagement/css/Ward.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="262">
+              <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditStaff.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/StaffManagement/EditStaff.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +91,8 @@
       <file leaf-file-name="LeftNavigation.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-247">
-              <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+            <state relative-caret-position="211">
+              <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -95,6 +125,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>import React\, \{ Component \} from \'react\'\;\nimport \{ withStyles \} from \'\@material\-ui\/core\/styles\'\;\nimport AppBar from \'\@material\-ui\/core\/AppBar\'\;\nimport Toolbar from \'\@material\-ui\/core\/Toolbar\'\;\nimport Typography from \'\@material\-ui\/core\/Typography\'\;\nimport Button from \'\@material\-ui\/core\/Button\'\;\nimport IconButton from \'\@material\-ui\/core\/IconButton\'\;\nimport MenuIcon from \'\@material\-ui\/icons\/Menu\'\;\nimport Drawer from \'\@material\-ui\/core\/Drawer\'\;\nimport Divider from \'\@material\-ui\/core\/Divider\'\;\nimport List from \'\@material\-ui\/core\/List\'\;\nimport ListItem from \'\@material\-ui\/core\/ListItem\'\;\nimport ListItemIcon from \'\@material\-ui\/core\/ListItemIcon\'\;\nimport ListItemText from \'\@material\-ui\/core\/ListItemText\'\;\nimport InboxIcon from \'\@material\-ui\/icons\/Inbox\'\;\nimport DraftsIcon from \'\@material\-ui\/icons\/Drafts\'\;\n\n\/\/import \'\.\/App\.css\'\;\n\nconst drawerWidth \= 340\;\n\nconst styles \= theme \=\&gt; \(\{\n    root\: \{\n        flexGrow\: 1\,\n        height\: 430\,\n        zIndex\: 1\,\n        overflow\: \'hidden\'\,\n        position\: \'relative\'\,\n        display\: \'flex\'\,\n    \}\,\n    appBar\: \{\n        zIndex\: theme\.zIndex\.drawer \+ 1\,\n    \}\,\n    drawerPaper\: \{\n        position\: \'relative\'\,\n        width\: drawerWidth\,\n    \}\,\n    content\: \{\n        flexGrow\: 1\,\n        backgroundColor\: theme\.palette\.background\.default\,\n        padding\: theme\.spacing\.unit \* 3\,\n        minWidth\: 0\, \/\/ So the Typography noWrap works\n    \}\,\n    toolbar\: theme\.mixins\.toolbar\,\n\}\)\;\n\nfunction LeftNavigation\(props\) \{\n    const \{ classes \} \= props\;\n\n    return \(\n             \&lt;div\&gt;\n            \&lt;Drawer\n\n                variant\=\&quot;permanent\&quot;\n                style\=\{\{paper\: classes\.drawerPaper\}\}\n\n            \&gt;\n                \&lt;div className\=\{classes\.toolbar\}\/\&gt;\n                \&lt;List component\=\&quot;nav\&quot;\&gt;\n                    \&lt;ListItem button\&gt;\n                        \&lt;ListItemIcon\&gt;\n                            \&lt;InboxIcon\/\&gt;\n                        \&lt;\/ListItemIcon\&gt;\n                        \&lt;ListItemText primary\=\&quot;Inbox\&quot;\/\&gt;\n                    \&lt;\/ListItem\&gt;\&lt;\/List\&gt;\n                \&lt;List\&gt;\&lt;\/List\&gt;\n                \&lt;Divider\/\&gt;\n\n            \&lt;\/Drawer\&gt;\n            \&lt;main className\=\{classes\.content\}\&gt;\n\n                \&lt;Typography noWrap\&gt;\{\'You think water moves fast\? You should see ice\.\'\}\&lt;\/Typography\&gt;\n            \&lt;\/main\&gt;\n             \&lt;\/div\&gt;\n\n\n    \)\;\n\}\n\nexport default withStyles\(styles\)\(LeftNavigation\)\;</find>
+      <find>\.settings\-sub\{\n    font\-size\: 16px\;\n    margin\-top\: 35px\;\n    padding\: 20px\;\n    width\: 75\%\;\n    font\-family\: \'Poppins\'\;\n\}\n\n\.setting\-head\{\n    font\-size\: 18px\;\n    font\-weight\: 600\;\n    color\:\#484848\;\n    border\-bottom\: 1px solid \#d8d8d8\;\n    padding\-bottom\: 10px\;\n    margin\-bottom\: 15px\;\n\}\n\n\.settings\-item\{\n    padding\-bottom\: 15px\;\n\}\n\n\n\.setting\-item\-label\{\n\n    font\-family\: \'poppins\'\;\n    font\-size\: 18px\;\n\}\n\n\.settings\-item input\{\n\n    height\: 35px\;\n    width\: 100\%\;\n    font\-size\: 18px\;\n\}\n\n\.settings\-items\{\n    padding\-bottom\: 15px\;\n    display\: flex\;\n    flex\-grow\: 1\;\n\}\n\n\.settings\-items div\{\n\n    flex\-direction\: row\;\n    width\: 100\%\;\n\n\}\n\n\.settings\-items div\:first\-child\{\n\n    margin\-right\: 35px\;\n\}\n\n\.settings\-items div input\{\n\n    height\: 35px\;\n    width\: 100\%\;\n    font\-size\: 18px\;\n\}\n\n\.gender\-group\{\n    width\: 100\%\;\n    margin\-right\: 35px\;\n\}\n\n\.gender\-group span\{\n\n    margin\-top\: 6px\;\n    display\: flex\;\n    flex\-grow\: 1\;\n\n\}\n\n\.gender\-group span span\{\n    \n    \n\}\n\n\.gender\-group span input\{\n\n \}\n\n\.combo\{\n\n    height\: 35px\;\n    width\: 100\%\;\n    font\-size\: 18px\;\n\}\n\n\.staff\-button \{\n    width\: 50\%\;\n    height\: 45px\;\n    background\-color\: \#1abc9c\;\n    border\: none\;\n    border\-radius\: 2px\;\n    color\: \#FFF\;\n    font\-family\: \'Muli\'\;\n    font\-size\: 19px\;\n    margin\-top\: 15px\;\n\}\n\n\.staff\-button \{\n                   width\: 50\%\;\n                   height\: 45px\;\n                   background\-color\: \#1abc9c\;\n                   border\: none\;\n                   border\-radius\: 2px\;\n                   color\: \#FFF\;\n                   font\-family\: \'Muli\'\;\n                   font\-size\: 19px\;\n                   margin\-top\: 15px\;\n               \}\n\n\n\n\n\n\n\n\n\n\n</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,11 +141,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/TopNavigation/TopNavigation.css" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/TopNavigation/TopNavigation.js" />
-        <option value="$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js" />
         <option value="$PROJECT_DIR$/src/StaffManagement/css/AddStaff.css" />
+        <option value="$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js" />
         <option value="$PROJECT_DIR$/src/StaffManagement/AddStaff.js" />
         <option value="$PROJECT_DIR$/src/StaffManagement/EditStaff.js" />
+        <option value="$PROJECT_DIR$/src/StaffManagement/css/Staff.css" />
+        <option value="$PROJECT_DIR$/src/TopNavigation/TopNavigation.js" />
+        <option value="$PROJECT_DIR$/src/WardManagement/AddWard.js" />
+        <option value="$PROJECT_DIR$/src/WardManagement/css/Ward.css" />
       </list>
     </option>
   </component>
@@ -134,7 +168,7 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1727" />
     <option name="y" value="163" />
     <option name="width" value="1026" />
@@ -180,14 +214,20 @@
               <item name="hospital_inward" type="b2602c69:ProjectViewProjectNode" />
               <item name="hospital_inward" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="StaffManagement" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="TopNavigation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hospital_inward" type="b2602c69:ProjectViewProjectNode" />
               <item name="hospital_inward" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="TopNavigation" type="462c0819:PsiDirectoryNode" />
+              <item name="WardManagement" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hospital_inward" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hospital_inward" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="WardManagement" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -202,6 +242,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Muvindu\Documents\WebStorm\hospital_inward\src\WardManagement" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Muvindu\Documents\WebStorm\hospital_inward\src\TopNavigation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -259,26 +307,28 @@
       <workItem from="1528773798641" duration="9985000" />
       <workItem from="1528820163742" duration="10983000" />
       <workItem from="1528877662621" duration="11894000" />
-      <workItem from="1528942882905" duration="6314000" />
+      <workItem from="1528942882905" duration="15711000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44505000" />
+    <option name="totallyTimeSpent" value="53902000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-8" width="1382" height="754" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49188313" visible="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32954547" />
       <window_info id="npm" order="2" sideWeight="0.5081169" side_tool="true" visible="true" weight="0.25" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32954547" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49188313" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" weight="0.32954547" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -287,7 +337,6 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -337,7 +386,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/AddStaff.css">
+    <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/Staff.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1071">
           <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
@@ -459,41 +508,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/LeftNavigation/LeftNavigation.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-247">
-          <caret line="62" column="18" lean-forward="true" selection-start-line="62" selection-start-column="18" selection-end-line="62" selection-end-column="18" />
+        <state relative-caret-position="211">
+          <caret line="65" column="39" lean-forward="true" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TopNavigation/TopNavigation.js">
+    <entry file="file://$PROJECT_DIR$/src/StaffManagement/EditStaff.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StaffManagement/AddStaff.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="78" column="24" selection-start-line="78" selection-start-column="24" selection-end-line="78" selection-end-column="24" />
+        <state relative-caret-position="398">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StaffManagement/EditStaff.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/AddStaff.css">
+    <entry file="file://$PROJECT_DIR$/src/StaffManagement/css/Staff.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="517">
+          <caret line="86" column="17" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/StaffManagement/AddStaff.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="33" lean-forward="true" selection-end-line="91" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TopNavigation/TopNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WardManagement/AddWard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="94" column="73" lean-forward="true" selection-start-line="94" selection-start-column="73" selection-end-line="94" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WardManagement/css/Ward.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="169" lean-forward="true" selection-start-line="169" selection-end-line="169" />
         </state>
       </provider>
     </entry>

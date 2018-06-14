@@ -56,6 +56,7 @@
     height: 35px;
     width: 100%;
     font-size: 18px;
+    padding-left: 6px;
 }
 
 .gender-group{
@@ -72,13 +73,19 @@
 }
 
 .gender-group span span{
-    
-    
+    align-items: baseline;
+
 }
 
 .gender-group span input{
+    cursor: pointer;
+    margin-right: 6px;
+}
 
- }
+.gender-group span label{
+    cursor: pointer;
+    font-size: 18px;
+}
 
 .combo{
 
@@ -88,7 +95,7 @@
 }
 
 .staff-button {
-    width: 50%;
+    width: 40%;
     height: 45px;
     background-color: #1abc9c;
     border: none;
@@ -97,4 +104,29 @@
     font-family: 'Muli';
     font-size: 19px;
     margin-top: 15px;
+    margin-right: 12px;
+    cursor: pointer;
 }
+
+.staff-delete-button {
+    width: 40%;
+    height: 45px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+

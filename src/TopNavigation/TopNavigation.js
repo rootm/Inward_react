@@ -18,7 +18,8 @@ import InboxIcon from '@material-ui/icons/Inbox';
 import DraftsIcon from '@material-ui/icons/Drafts';
 import LeftNavigation from '../LeftNavigation/LeftNavigation'
 import AddStaff from '../StaffManagement/AddStaff'
-
+import EditStaff from '../StaffManagement/EditStaff'
+import AddWard from '../WardManagement/AddWard'
 
 const drawerWidth = 180;
 
@@ -71,38 +72,38 @@ function TopNavigation(props) {
     const { classes } = props;
 
     return (
-                <div className={classes.root}>
-                    <AppBar position="absolute" className={classes.appBar}>
-                        <Toolbar>
-                            <Typography variant="title" color="inherit" noWrap className={classes.sys_heading}>
-                                Hospital Information System
-                            </Typography>
-                            <Typography variant="subheading" color="inherit" noWrap className={classes.profileName} >
-                                Muvindu
-                            </Typography>
-                            <IconButton >
-                            <Avatar
+        <div className={classes.root}>
+            <AppBar position="absolute" className={classes.appBar}>
+                <Toolbar>
+                    <Typography variant="title" color="inherit" noWrap className={classes.sys_heading}>
+                        Hospital Information System
+                    </Typography>
+                    <Typography variant="subheading" color="inherit" noWrap className={classes.profileName} >
+                        Muvindu
+                    </Typography>
+                    <IconButton >
+                        <Avatar
                             alt="Muvindu"
                             src="./img/user.png"
                             className={classes.avatar}
                         /></IconButton>
 
 
-                        </Toolbar>
+                </Toolbar>
 
-                    </AppBar>
-                    <LeftNavigation/>
+            </AppBar>
+            <LeftNavigation/>
 
-                    <main className={classes.content}>
+            <main className={classes.content}>
 
 
 
-                        <AddStaff/>
+                <AddWard/>
 
-                    </main>
+            </main>
 
-                </div>
-            );
+        </div>
+    );
 }
 
 export default withStyles(styles)(TopNavigation);

@@ -1,0 +1,185 @@
+.settings-sub{
+    font-size: 16px;
+    margin-top: 35px;
+    padding: 20px;
+    width: 75%;
+    font-family: 'Poppins';
+}
+
+.setting-head{
+    font-size: 18px;
+    font-weight: 600;
+    color:#484848;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.settings-item{
+    padding-bottom: 15px;
+}
+
+
+.setting-item-label{
+
+    font-family: 'poppins';
+    font-size: 18px;
+}
+
+.settings-item input{
+
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.settings-items{
+    padding-bottom: 15px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.settings-items div{
+
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.settings-items div:first-child{
+
+    margin-right: 35px;
+}
+
+.settings-items div input{
+
+    height: 35px;
+    width: 100%;
+    font-size: 18px;
+    padding-left: 6px;
+}
+
+
+
+.gender-group{
+    width: 100%;
+    margin-right: 35px;
+}
+
+.gender-group span{
+
+    margin-top: 6px;
+    display: flex;
+    flex-grow: 1;
+
+}
+
+.gender-group span span{
+    align-items: baseline;
+
+}
+
+.gender-group span input{
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.gender-group span label{
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.combo{
+
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+}
+
+.staff-button {
+    width: 40%;
+    height: 45px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 15px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.bed-add-button{
+    width: 60%;
+    height: 38px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.staff-delete-button {
+    width: 40%;
+    height: 45px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.add-margin{
+    margin-top: 35px;
+}
+
+th{
+    padding-left: 6px;
+    text-align: left;
+    font-weight: 500;
+    font-size: 18px;
+    height: 45px;
+    border:solid 1px rgba(72,72, 72, 0.3);
+}
+td{
+    padding-left: 6px;
+    height: 35px;
+    border:solid 1px rgba(72,72, 72, 0.3);
+
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.beds-remove-column{
+    width: 15px;
+}
+
+.beds-remove-column{
+    border-left:solid 1px rgba(72,72, 72, 0);
+}
+
+.beds-count-column{
+    border-right:solid 1px rgba(72,72, 72, 0);
+}
+
+.beds-count-column input{
+    margin-left: 6px;
+    width: 75%;
+    border: none;
+}
+
+
+
+
+
+

@@ -54,46 +54,46 @@ function LeftNavigation(props) {
     const { classes } = props;
 
     return (
-             <div>
-                 <Drawer
+        <div>
+            <Drawer
 
-                     variant="permanent"
-                     classes={{paper: classes.drawerPaper}}
+                variant="permanent"
+                classes={{paper: classes.drawerPaper}}
 
-                 >
-                     <div className={classes.toolbar}/>
-                     <List>
-                         <ListItem button  >
-                             <ListItemIcon>
-                                 <InboxIcon/>
-                             </ListItemIcon>
-                             <ListItemText primary="Ward Admission" />
-                         </ListItem>
-                         <ListItem button>
-                             <ListItemIcon>
-                                 <InboxIcon/>
-                             </ListItemIcon>
-                             <ListItemText primary="New Admission"/>
-                         </ListItem>
-                         <ListItem button>
-                             <ListItemIcon>
-                                 <InboxIcon/>
-                             </ListItemIcon>
-                             <ListItemText primary="Transfer Admissions"/>
-                         </ListItem>
-                         <ListItem button>
-                             <ListItemIcon>
-                                 <InboxIcon/>
-                             </ListItemIcon>
-                             <ListItemText primary="Ward Admission"/>
-                         </ListItem>
+            >
+                <div className={classes.toolbar}/>
+                <List>
+                    <ListItem button  >
+                        <ListItemIcon>
+                            <InboxIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary="Ward Admission" />
+                    </ListItem>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <InboxIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary="New Admission"/>
+                    </ListItem>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <InboxIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary="Transfer Admissions"/>
+                    </ListItem>
+                    <ListItem button>
+                        <ListItemIcon>
+                            <InboxIcon/>
+                        </ListItemIcon>
+                        <ListItemText primary="Ward Admission"/>
+                    </ListItem>
 
-                     </List>
-                     <List></List>
-                     <Divider/>
+                </List>
+                <List></List>
+                <Divider/>
 
-                 </Drawer>
-             </div>
+            </Drawer>
+        </div>
 
 
     );
