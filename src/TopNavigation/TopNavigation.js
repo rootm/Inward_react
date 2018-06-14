@@ -19,9 +19,11 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 import LeftNavigation from '../LeftNavigation/LeftNavigation'
 import AddStaff from '../StaffManagement/AddStaff'
 import EditStaff from '../StaffManagement/EditStaff'
+import ViewStaff from '../StaffManagement/ViewStaff'
 import AddWard from '../WardManagement/AddWard'
 import EditWard from '../WardManagement/EditWard'
 import Login from '../UserLogin/Login'
+import EditWardBeds from "../WardManagement/EditWardBeds";
 
 
 const drawerWidth = 180;
@@ -101,7 +103,7 @@ function TopNavigation(props) {
 
 
 
-                <EditWard/>
+                <EditWardBeds/>
 
             </main>
 
