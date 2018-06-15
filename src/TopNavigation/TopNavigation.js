@@ -19,9 +19,11 @@ import DraftsIcon from '@material-ui/icons/Drafts';
 import LeftNavigation from '../LeftNavigation/LeftNavigation'
 import AddStaff from '../StaffManagement/AddStaff'
 import EditStaff from '../StaffManagement/EditStaff'
+import ViewStaff from '../StaffManagement/ViewStaff'
 import AddWard from '../WardManagement/AddWard'
 import EditWard from '../WardManagement/EditWard'
 import Login from '../UserLogin/Login'
+<<<<<<< HEAD
 import AddPatientAdmission from '../PatientManagement/AddPatientAdmission'
 import EditPatientAdmission from '../PatientManagement/EditPatientAdmission'
 import AddInternelTransfer from '../PatientManagement/AddInternelTransfer'
@@ -29,6 +31,9 @@ import EditInternelTransfer from '../PatientManagement/EditInternelTransfer.js'
 import AddEnternalTransfer from '../PatientManagement/AddEnternalTransfer.js'
 import EditEnternalTransfer from '../PatientManagement/EditEnternalTransfer.js'
 import AddDischarges from '../PatientManagement/AddDischarges.js'
+=======
+import EditWardBeds from "../WardManagement/EditWardBeds";
+>>>>>>> 7f8b67f6249d1766aeb66fe44944cbe03ad02a95
 
 
 const drawerWidth = 180;
@@ -108,7 +113,11 @@ function TopNavigation(props) {
 
 
 
+<<<<<<< HEAD
                 <AddDischarges/>
+=======
+                <EditWardBeds/>
+>>>>>>> 7f8b67f6249d1766aeb66fe44944cbe03ad02a95
 
             </main>
 

@@ -110,7 +110,7 @@
     cursor: pointer;
 }
 .bed-add-button{
-    width: 60%;
+    width: 70%;
     height: 38px;
     background-color: #1abc9c;
     border: none;
@@ -122,7 +122,25 @@
     margin-left: 25px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .Patient-delete-button {
+=======
+
+.bed-delete-button{
+    width: 70%;
+    height: 38px;
+    background-color: #e74c3c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.staff-delete-button {
+>>>>>>> 7f8b67f6249d1766aeb66fe44944cbe03ad02a95
     width: 40%;
     height: 45px;
     background-color: #e74c3c;
@@ -144,19 +162,19 @@ th{
     text-align: left;
     font-weight: 500;
     font-size: 18px;
-    height: 45px;
-    border:solid 1px rgba(72,72, 72, 0.3);
+    height: 55px;
+    border-bottom:solid 1px rgba(72,72, 72, 0.3);
 }
 td{
     padding-left: 6px;
-    height: 35px;
-    border:solid 1px rgba(72,72, 72, 0.3);
+    height: 40px;
+    border-bottom:solid 1px rgba(72,72, 72, 0.3);
 
 }
 
 table {
     border-collapse: collapse;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.06), 0 6px 20px 0 rgba(0, 0, 0, 0.06);
     width: 100%;
 }
 
@@ -178,7 +196,20 @@ table {
     border: none;
 }
 
+.staff-search-button{
 
+    width: 40%;
+    height: 38px;
+    background-color: #1abc9c;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    font-family: 'Muli';
+    font-size: 19px;
+    margin-top: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+}
 
 
 
