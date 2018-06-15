@@ -79,8 +79,8 @@ class EditStaff extends React.Component {
                     </div>
 
 
-                    <button type="button" name="staff_update" className="staff-button">Update Details</button>
-                    <button type="button" name="staff_delete" className="staff-delete-button">Delete Employee</button>
+                    <button type="button" name="staff_update" className="Patient-button">Update Details</button>
+                    <button type="button" name="staff_delete" className="Patient-delete-button">Delete Employee</button>
                 </form>
             </div>
 

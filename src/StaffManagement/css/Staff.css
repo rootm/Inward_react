@@ -94,7 +94,7 @@
     font-size: 18px;
 }
 
-.staff-button {
+.Patient-button {
     width: 40%;
     height: 45px;
     background-color: #1abc9c;
@@ -108,7 +108,7 @@
     cursor: pointer;
 }
 
-.staff-delete-button {
+.Patient-delete-button {
     width: 40%;
     height: 45px;
     background-color: #e74c3c;

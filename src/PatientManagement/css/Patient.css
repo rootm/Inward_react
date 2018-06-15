@@ -7,7 +7,7 @@
 }
 
 .setting-head{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     color:#484848;
     border-bottom: 1px solid #d8d8d8;
@@ -16,7 +16,7 @@
 }
 
 .settings-item{
-    padding-bottom: 15px;
+    padding-bottom: 13px;
 }
 
 
@@ -59,8 +59,6 @@
     padding-left: 6px;
 }
 
-
-
 .gender-group{
     width: 100%;
     margin-right: 35px;
@@ -91,7 +89,7 @@
 
 .combo{
 
-    height: 40px;
+    height: 35px;
     width: 100%;
     font-size: 18px;
 }
@@ -109,19 +107,7 @@
     margin-right: 12px;
     cursor: pointer;
 }
-.bed-add-button{
-    width: 60%;
-    height: 38px;
-    background-color: #1abc9c;
-    border: none;
-    border-radius: 2px;
-    color: #FFF;
-    font-family: 'Muli';
-    font-size: 19px;
-    margin-top: 30px;
-    margin-left: 25px;
-    cursor: pointer;
-}
+
 .Patient-delete-button {
     width: 40%;
     height: 45px;
@@ -135,48 +121,9 @@
     cursor: pointer;
 }
 
-.add-margin{
-    margin-top: 35px;
-}
 
-th{
-    padding-left: 6px;
-    text-align: left;
-    font-weight: 500;
-    font-size: 18px;
-    height: 45px;
-    border:solid 1px rgba(72,72, 72, 0.3);
-}
-td{
-    padding-left: 6px;
-    height: 35px;
-    border:solid 1px rgba(72,72, 72, 0.3);
 
-}
 
-table {
-    border-collapse: collapse;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
-    width: 100%;
-}
-
-.beds-remove-column{
-    width: 15px;
-}
-
-.beds-remove-column{
-    border-left:solid 1px rgba(72,72, 72, 0);
-}
-
-.beds-count-column{
-    border-right:solid 1px rgba(72,72, 72, 0);
-}
-
-.beds-count-column input{
-    margin-left: 6px;
-    width: 75%;
-    border: none;
-}
 
 
 

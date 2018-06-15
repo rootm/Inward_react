@@ -22,6 +22,13 @@ import EditStaff from '../StaffManagement/EditStaff'
 import AddWard from '../WardManagement/AddWard'
 import EditWard from '../WardManagement/EditWard'
 import Login from '../UserLogin/Login'
+import AddPatientAdmission from '../PatientManagement/AddPatientAdmission'
+import EditPatientAdmission from '../PatientManagement/EditPatientAdmission'
+import AddInternelTransfer from '../PatientManagement/AddInternelTransfer'
+import EditInternelTransfer from '../PatientManagement/EditInternelTransfer.js'
+import AddEnternalTransfer from '../PatientManagement/AddEnternalTransfer.js'
+import EditEnternalTransfer from '../PatientManagement/EditEnternalTransfer.js'
+import AddDischarges from '../PatientManagement/AddDischarges.js'
 
 
 const drawerWidth = 180;
@@ -101,7 +108,7 @@ function TopNavigation(props) {
 
 
 
-                <EditWard/>
+                <AddDischarges/>
 
             </main>
 
