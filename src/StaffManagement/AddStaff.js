@@ -79,7 +79,7 @@ class AddStaff extends React.Component {
                     </div>
 
 
-                    <button type="button" name="staff_save" className="staff-button">Save Details</button>
+                    <button type="button" name="staff_save" className="Patient-button">Save Details</button>
                 </form>
             </div>
 

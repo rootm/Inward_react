@@ -23,6 +23,13 @@ import ViewStaff from '../StaffManagement/ViewStaff'
 import AddWard from '../WardManagement/AddWard'
 import EditWard from '../WardManagement/EditWard'
 import Login from '../UserLogin/Login'
+import AddPatientAdmission from '../PatientManagement/AddPatientAdmission'
+import EditPatientAdmission from '../PatientManagement/EditPatientAdmission'
+import AddInternelTransfer from '../PatientManagement/AddInternelTransfer'
+import EditInternelTransfer from '../PatientManagement/EditInternelTransfer.js'
+import AddEnternalTransfer from '../PatientManagement/AddEnternalTransfer.js'
+import EditEnternalTransfer from '../PatientManagement/EditEnternalTransfer.js'
+import AddDischarges from '../PatientManagement/AddDischarges.js'
 import EditWardBeds from "../WardManagement/EditWardBeds";
 
 
@@ -103,7 +110,12 @@ function TopNavigation(props) {
 
 
 
+
                 <AddWard/>
+
+                <AddDischarges/>
+                <EditWardBeds/>
+
 
             </main>
 

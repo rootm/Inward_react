@@ -100,8 +100,8 @@ class EditWard extends React.Component {
                     </div>
 
 
-                    <button type="button" name="ward_save" className="staff-button">Update Details</button>
-                    <button type="button" name="ward_delete" className="staff-delete-button">Delete Details</button>
+                    <button type="button" name="ward_save" className="Patient-button">Update Details</button>
+                    <button type="button" name="ward_delete" className="Patient-delete-button">Delete Details</button>
                 </form>
             </div>
 
