@@ -85,7 +85,7 @@ class EditWard extends React.Component {
                             <tr className="beds-table-row">
                                 <td className="beds-num-column">#</td>
                                 <td className="beds-category-column">Bed Category</td>
-                                <td className="beds-count-column"><input type="number" name="bed_count"  min="1" value="1"/></td>
+                                <td className="beds-count-column"><input type="number" name="bed_count"  min="1" /></td>
                                 <td className="beds-remove-column">x</td>
                             </tr>
                             <tr className="beds-table-row">

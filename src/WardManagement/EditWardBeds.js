@@ -42,7 +42,7 @@ class EditWardBeds extends React.Component {
                             </div>
                             <div>
                                 <div className="setting-item-label">Bed Count</div>
-                                <input type="number" name="bed_count_add" min="1" value="1"/>
+                                <input type="number" name="bed_count_add" min="1" />
                             </div>
                             <div>
                                 <button type="button" name="add_bed" className="bed-add-button">Add to ward</button>

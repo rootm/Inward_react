@@ -103,7 +103,7 @@ function TopNavigation(props) {
 
 
 
-                <EditWardBeds/>
+                <AddWard/>
 
             </main>
 
